@@ -1,0 +1,171 @@
+html, body {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+:root {
+    --background-primary: rgb(153, 118, 37);
+    --text-primary: rgb(212, 172, 80);
+    --background-navbar: #000000;
+    --background: #343a40;
+}
+
+.text-primary {
+    color: var(--text-primary) !important;
+}
+
+/*input::-webkit-outer-spin-button,*/
+/*input::-webkit-inner-spin-button {*/
+/*    -webkit-appearance: none;*/
+/*    margin: 0;*/
+/*}*/
+
+/*!* Firefox *!*/
+/*input[type=number] {*/
+/*    -moz-appearance: textfield;*/
+/*}*/
+
+.header {
+    position: fixed;
+    height: 96px;
+    padding: 0.8rem 0;
+}
+
+.thankyou {
+    margin-top: 120px;
+}
+
+.navbar-custom {
+    background-color: var(--background);
+}
+
+.nav-list li {
+    margin: 0 0.5rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: transparent;
+    text-transform: uppercase;
+    display: block;
+    padding: 1rem 0.6rem;
+}
+
+
+.nav-link:hover {
+    color: var(--text-primary);
+}
+
+.nav-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 1rem 0.6rem !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    transform: translate3d(44px, -18px, 0px) !important;
+}
+
+.btn-booking {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: var(--text-primary) !important;
+    border: var(--background-primary) 1px solid !important;
+    padding: 8px 19px !important;
+}
+
+.btn-booking:hover {
+    color: #FFFFFF !important;
+    background-color: var(--background-primary);
+    border: var(--background-primary);
+}
+
+.page-header {
+    height: 240px;
+    margin-top: 96px;
+}
+
+.sub-search,
+.ui-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: #aab8c5;
+    background-color: #343a40;
+    width: 240px;
+    border-top: 2px solid #FFBFBF;
+    z-index: 5;
+}
+
+.sub-search-list,
+.ui-menu {
+    padding: 0;
+    list-style: none;
+}
+
+.sub-search-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px;
+    color: #aab8c5;
+    background-color: #343a40;
+}
+
+.sub-search-link:hover {
+    background-color: var(--background-primary);
+    color: #FFFFFF;
+}
+
+.sub-search-link__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.sub-search-link__name {
+    font-size: 16px;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+    margin-right: 4px;
+}
+
+.sub-search-link__price {
+    justify-content: flex-end;
+}
+
+
+.submit {
+    border: var(--background-primary) 1px solid;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    float: right;
+    padding: 0.5rem 2.2rem;
+    background-color: var(--background-primary);
+}
+
+.submit:hover,
+.btn-login:hover {
+    color: #FFFFFF;
+    background-color: #8b691a;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: var(--background-primary);
+    border: var(--background-primary) 1px solid;
+    color: #FFFFFF;
+}

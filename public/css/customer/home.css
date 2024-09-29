@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: rgb(232, 230, 227);
+    height: 112px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: transparent;
+    text-transform: uppercase;
+    display: block;
+    padding: 2rem 1rem;
+}
+
+.nav-user {
+    border: none;
+    padding: 2rem 1rem !important;
+}
+
+.nav-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+}
+
+.carousel-item img {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn-services {
+    width: 200px;
+    translate: 500px 0;
+}
